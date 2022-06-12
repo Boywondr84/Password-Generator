@@ -15,3 +15,12 @@ Password selection criteria includes:
 
 ## Screenshot:
 <img src="
+
+## Contribution(s):
+Ryan Kahlbaugh
+
+With assistance from classmate:
+Sarah Nguyen
+
+With for loop assistance from:
+Tucker Barrett (Tutor)
