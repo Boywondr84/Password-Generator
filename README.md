@@ -12,9 +12,10 @@ Password selection criteria includes:
 * Javascript 
 
 ## Website:
+https://boywondr84.github.io/Password-Generator/
 
 ## Screenshot:
-<img src="
+<img src=".\assets\images\screenshot-boywondr84.github.io-2022.06.12-12_55_41.jpg" />
 
 ## Contribution(s):
 Ryan Kahlbaugh
