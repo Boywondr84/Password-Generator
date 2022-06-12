@@ -51,6 +51,7 @@ window.alert("Click the Generate Password button to begin creating your password
     }
 
   let allChar = []
+  
 
 //Password selections added to allChar [].
   if (upperCase) {
