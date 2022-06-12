@@ -24,28 +24,58 @@ window.alert("Click the Generate Password button to begin creating your password
     //start over function
   
   //total = !<8 && !>128
+//Window Prompts
+  let upperCase = window.confirm("Do you want to include upper case letters?");  
+      if (upperCase) {
+        window.alert("Password Criteria upper case letters selected.");
+      }else {
+        console.log("not selected");
+    }
+  
+  let lowerCase = window.confirm("Do you want to include lower case letters?");
+      if (lowerCase) {
+        window.alert("Password Criteria lower case letters selected.");
+      }else {
+        console.log("not selected");
+    }
+  
+  let numChar = window.confirm("Do you want to include numbers?");
+      if (numChar) {
+        window.alert("Password Criteria numbers selected.");
+      }else {
+        console.log("not selected");
+    }
+  
+  let specialChar = window.confirm("Do you want to include special characters?");
+      if (specialChar) {
+        window.alert("Password Criteria special characters selected.");
+      }else {
+        console.log("not selected");
+    }
+    
+  let allChar = []
 
-  //let upperCase = window.confirm("Do you want capital letters?");
-  //let lowerCase = window.confirm("Do you want lowercase letters?");
-  let numChar = window.confirm("Do you want to use numbers?");
-  //let specialChar = window.confirm("Do you want to use special characters?");
-  //let allChar = []
-  //if (upperCase) {
-  //  allChar.push(...abc);
-  //}
+  //Password selections added to allChar [].
+  if (upperCase) {
+    allChar.push(...abc);
+  }
 
-  //if (lowerCase) {
-  //  allChar.push(...xyz);
-  //}
+  if (lowerCase) {
+    allChar.push(...xyz);
+  }
 
   if (numChar) {
     allChar.push(...numerals);
+    //for (i = 0; i = total; i++) {
+      //total += total.push(math.floor(math.random*allChar.push.length);
+    //}
   }
 
-  //if (specialChar) {
-  //  allChar.push(...special);
-  //}
-  //console.log(allChar)
+
+  if (specialChar) {
+    allChar.push(...special);
+  }
+  console.log(allChar)
 
   //For loop
   //let output = ""
